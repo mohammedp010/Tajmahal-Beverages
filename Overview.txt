@@ -1,0 +1,14 @@
+admin
+
+productMaster
+	Category: With Water,With 			Milk,With Water&Milk		
+OrderMaster(Online Payment,COD)
+Maniplulation of Highlighted Banner on home Page
+
+Client
+
+Store Locator
+Recommended for u
+Best selling
+Customer Review
+

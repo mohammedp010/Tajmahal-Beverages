@@ -1,0 +1,110 @@
+﻿body {
+}
+
+.error
+{
+	border-color: #df8f8f;
+	background-color: #ffcece;
+	border-style: solid;
+	border-width: 1px;
+	width: 100%;
+	height: 35px;
+	vertical-align: top;
+	text-align: left;
+	color: #800000;
+	display: none;
+	margin-bottom: 10px;
+}
+.attention
+{
+	border-color: #e6db55;
+	background-color: #fffbcc;
+	border-style: solid;
+	border-width: 1px;
+	width: 100%;
+	height: 35px;
+	vertical-align: top;
+	text-align: left;
+	color: #616161;
+	display: none;
+	margin-bottom: 10px;
+}
+.info
+{
+	border-color: #a2b4ee;
+	background-color: #D2D2D2;
+	border-style: solid;
+	border-width: 1px;
+	width: 100%;
+	height: 35px;
+	vertical-align: top;
+	color: #333333;
+	text-align: left;
+	display: none;
+	margin-bottom: 10px;
+}
+.success
+{
+	border-color: #9adf8f;
+	background-color: #d5ffce;
+	border-style: solid;
+	border-width: 1px;
+	width: 100%;
+	height: 35px;
+	vertical-align: top;
+	text-align: left;
+	color: #003300;
+	display: none;
+	margin-bottom: 10px;
+}
+
+.progress
+{
+	position: fixed;
+	top: 0px;
+	vertical-align: middle;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	left: 50%;
+	color: Black;
+	border-right: gray 1px solid;
+	border-top: gray 1px solid;
+	border-left: gray 1px solid;
+	border-bottom: gray 1px solid;
+	background-color: #FFFFCC;
+}
+
+.GridHead
+{
+	color: #fff;
+	background-color: #41424c;
+	font-weight: normal;
+	outline: none;
+}
+.GridPager
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #d7d7d7;
+	font-weight:bold;
+	color:red;
+}
+.GridRow
+{
+	
+	border-style:solid;	border-color:Silver;border-width:1px;
+}
+.GridRowSelect
+{
+	background-color: #d7d7d7;
+	border-style:solid;	
+	border-color:Silver;
+	border-width:1px;
+}
+.Grid
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: Silver;
+}

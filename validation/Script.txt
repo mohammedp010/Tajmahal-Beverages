@@ -1,0 +1,30 @@
+<script type="text/javascript">
+   
+    function ValidateData(val)
+    {    
+        var CategoryName  = document.getElementById("ctl00_ContentPlaceHolder1_fvCategoryDetail_txtCategoryName");
+         
+        var d=document.getElementById("ctl00_ContentPlaceHolder1_error");
+        var d1=document.getElementById("ctl00_ContentPlaceHolder1_success");
+        var msg = document.getElementById("ctl00_ContentPlaceHolder1_lblError");
+        
+        d.style.display = "none";        
+        d1.style.display = "none";
+                 
+        if(CategoryName.value == "")
+        {
+            d.style.display = "block";  
+            msg.innerHTML="Insert CategoryName."; 
+            CategoryName.focus();               
+            return false;
+        }
+        
+        else
+        {
+            d.style.display = "none";
+            return true;
+        }
+       
+    }
+        
+    </script>

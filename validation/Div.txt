@@ -1,0 +1,60 @@
+  <div id="success" class="success" runat="server">
+                <table cellpadding="10" cellspacing="0" style="width: 100%;">
+                    <tr>
+                        <td style="width: 16px;">
+                            <img alt="" src="../Messages/success.png" />
+                        </td>
+                        <td style="text-align: left; padding-left: 3px;">
+                            <asp:Label ID="lblSuccess" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td style="width: 16px; padding: 0px;">
+                            <img alt="" src="../Messages/close.png" style="cursor: hand;" onclick="closeDiv('success');" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="error" class="error" runat="server">
+                <table cellpadding="10" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 16px;">
+                            <img alt="" src="../Messages/error.png" />
+                        </td>
+                        <td style="text-align: left; padding-left: 3px;">
+                            <asp:Label ID="lblError" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td style="width: 16px; padding: 0px;">
+                            <img alt="" src="../Messages/close.png" style="cursor: hand;" onclick="closeDiv('error');" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="info" class="info" runat="server">
+                <table cellpadding="10" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 16px;">
+                            <img alt="" src="../Messages/info.png" />
+                        </td>
+                        <td style="text-align: left; padding-left: 3px;">
+                            <asp:Label ID="lblInfo" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td style="width: 16px; padding: 0px;">
+                            <img alt="" src="../Messages/close.png" style="cursor: hand;" onclick="closeDiv('info');" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="attention" class="attention" runat="server">
+                <table cellpadding="10" cellspacing="0" width="100%">
+                    <tr>
+                        <td style="width: 16px;">
+                            <img alt="" src="../Messages/attention.png" />
+                        </td>
+                        <td style="text-align: left; padding-left: 3px;">
+                            <asp:Label ID="lblAttention" runat="server" Text="Label"></asp:Label>
+                        </td>
+                        <td style="width: 16px; padding: 0px;">
+                            <img alt="" src="../Messages/close.png" style="cursor: hand;" onclick="closeDiv('attention');" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
