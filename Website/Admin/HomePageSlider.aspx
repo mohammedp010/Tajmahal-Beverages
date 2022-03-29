@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMasterPage.master" AutoEventWireup="true" CodeFile="HomePageSlider.aspx.cs" Inherits="HomePageSlider" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/AdminMasterPage.master.cs" AutoEventWireup="true" CodeFile="HomePageSlider.aspx.cs" Inherits="HomePageSlider" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style>

@@ -1,6 +1,0 @@
-CSS
-
-left sidebar background=  sidebar-dark
-left sidebar submenu background= nav-left-sidebar .submenu
-
-7b571e
