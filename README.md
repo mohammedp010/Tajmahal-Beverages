@@ -155,9 +155,6 @@ Validation on Shipping Details Page
 Payment Details Page
 ![image](https://user-images.githubusercontent.com/91045938/188407796-2806644f-26f8-4563-90f0-84740eb27a2e.png)
 
-Invoice Page
-![image](https://user-images.githubusercontent.com/91045938/188407836-0e651729-8165-4e17-ba45-35588765df3b.png)
-
  
 
 
